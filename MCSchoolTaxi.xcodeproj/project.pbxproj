@@ -337,6 +337,10 @@
 		4CC8912D1E5E93D200CA64DA /* MCMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8912C1E5E93D200CA64DA /* MCMapView.m */; };
 		4CC986401E6472BC00161BB5 /* OrderDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9863F1E6472BC00161BB5 /* OrderDetailsViewController.m */; };
 		4CC986431E64778D00161BB5 /* OrderDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC986421E64778D00161BB5 /* OrderDetailsTableViewCell.m */; };
+		4CF05F941E650F11004C2401 /* WaitingOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF05F931E650F11004C2401 /* WaitingOrderViewController.m */; };
+		4CF05F981E6515A6004C2401 /* WaitingOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF05F971E6515A6004C2401 /* WaitingOrderTableViewCell.m */; };
+		4CF05F9B1E651A48004C2401 /* photos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF05F991E651A48004C2401 /* photos@2x.png */; };
+		4CF05F9C1E651A48004C2401 /* photos@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF05F9A1E651A48004C2401 /* photos@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -833,6 +837,12 @@
 		4CC9863F1E6472BC00161BB5 /* OrderDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailsViewController.m; sourceTree = "<group>"; };
 		4CC986411E64778D00161BB5 /* OrderDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailsTableViewCell.h; sourceTree = "<group>"; };
 		4CC986421E64778D00161BB5 /* OrderDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailsTableViewCell.m; sourceTree = "<group>"; };
+		4CF05F921E650F11004C2401 /* WaitingOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingOrderViewController.h; sourceTree = "<group>"; };
+		4CF05F931E650F11004C2401 /* WaitingOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingOrderViewController.m; sourceTree = "<group>"; };
+		4CF05F961E6515A6004C2401 /* WaitingOrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingOrderTableViewCell.h; sourceTree = "<group>"; };
+		4CF05F971E6515A6004C2401 /* WaitingOrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingOrderTableViewCell.m; sourceTree = "<group>"; };
+		4CF05F991E651A48004C2401 /* photos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photos@2x.png"; sourceTree = "<group>"; };
+		4CF05F9A1E651A48004C2401 /* photos@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photos@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -998,6 +1008,8 @@
 		4C5315471E5FCEA100C757A2 /* 租车 */ = {
 			isa = PBXGroup;
 			children = (
+				4CF05F991E651A48004C2401 /* photos@2x.png */,
+				4CF05F9A1E651A48004C2401 /* photos@3x.png */,
 				4C5315481E5FCEA100C757A2 /* card_add@2x.png */,
 				4C5315491E5FCEA100C757A2 /* card_add@3x.png */,
 				4C53154A1E5FCEA100C757A2 /* card_bg@2x.png */,
@@ -1721,6 +1733,11 @@
 		4CC890E61E5E87BF00CA64DA /* 我要租车 */ = {
 			isa = PBXGroup;
 			children = (
+				4CF05F8E1E650D65004C2401 /* 待付款 */,
+				4CF05F8F1E650D65004C2401 /* 待抢单 */,
+				4CF05F901E650D65004C2401 /* 接单中 */,
+				4CF05F911E650D65004C2401 /* 进行中 */,
+				4CF05F8D1E650CEB004C2401 /* 待抢单 */,
 				4CC8910C1E5E8F8A00CA64DA /* view */,
 				4CC890E81E5E8AF100CA64DA /* MyTaxicabViewController.h */,
 				4CC890E91E5E8AF100CA64DA /* MyTaxicabViewController.m */,
@@ -1822,6 +1839,53 @@
 			children = (
 				4CC986411E64778D00161BB5 /* OrderDetailsTableViewCell.h */,
 				4CC986421E64778D00161BB5 /* OrderDetailsTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4CF05F8D1E650CEB004C2401 /* 待抢单 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "待抢单";
+			sourceTree = "<group>";
+		};
+		4CF05F8E1E650D65004C2401 /* 待付款 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "待付款";
+			sourceTree = "<group>";
+		};
+		4CF05F8F1E650D65004C2401 /* 待抢单 */ = {
+			isa = PBXGroup;
+			children = (
+				4CF05F951E651599004C2401 /* view */,
+				4CF05F921E650F11004C2401 /* WaitingOrderViewController.h */,
+				4CF05F931E650F11004C2401 /* WaitingOrderViewController.m */,
+			);
+			path = "待抢单";
+			sourceTree = "<group>";
+		};
+		4CF05F901E650D65004C2401 /* 接单中 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "接单中";
+			sourceTree = "<group>";
+		};
+		4CF05F911E650D65004C2401 /* 进行中 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "进行中";
+			sourceTree = "<group>";
+		};
+		4CF05F951E651599004C2401 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4CF05F961E6515A6004C2401 /* WaitingOrderTableViewCell.h */,
+				4CF05F971E6515A6004C2401 /* WaitingOrderTableViewCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1949,6 +2013,7 @@
 				4C5315ED1E5FCEA100C757A2 /* me_icon_schedule@3x.png in Resources */,
 				4C5316031E5FCEA100C757A2 /* card_driver@3x.png in Resources */,
 				4C5316141E5FCEA100C757A2 /* icon_rule@2x.png in Resources */,
+				4CF05F9B1E651A48004C2401 /* photos@2x.png in Resources */,
 				4C5315BE1E5FCEA100C757A2 /* label_vip_gold@2x.png in Resources */,
 				4C5316381E5FCEA100C757A2 /* map_location_account@2x.png in Resources */,
 				4C53163F1E5FCEA100C757A2 /* pic_count-down@3x.png in Resources */,
@@ -2088,6 +2153,7 @@
 				4C5316071E5FCEA100C757A2 /* card_head_driver_def@3x.png in Resources */,
 				4C5315D51E5FCEA100C757A2 /* list_icon_vip_yellow@3x.png in Resources */,
 				4C53160E1E5FCEA100C757A2 /* icon_hall@2x.png in Resources */,
+				4CF05F9C1E651A48004C2401 /* photos@3x.png in Resources */,
 				4C53164F1E5FCEA100C757A2 /* btn_chb_pre@3x.png in Resources */,
 				4C5315E21E5FCEA100C757A2 /* me_icon_id@2x.png in Resources */,
 				4C5316351E5FCEA100C757A2 /* map_btn_waiting@3x.png in Resources */,
@@ -2240,6 +2306,7 @@
 				4CC890A01E5E876E00CA64DA /* IQKeyboardManager.m in Sources */,
 				4C53166F1E600CB300C757A2 /* HClActionSheet.m in Sources */,
 				4CC890B61E5E876E00CA64DA /* MJRefreshComponent.m in Sources */,
+				4CF05F941E650F11004C2401 /* WaitingOrderViewController.m in Sources */,
 				4CC890AD1E5E876E00CA64DA /* MJPropertyKey.m in Sources */,
 				4CC8909A1E5E876E00CA64DA /* UIRefreshControl+AFNetworking.m in Sources */,
 				4C53165F1E5FE4BA00C757A2 /* OwnerAuthenViewController.m in Sources */,
@@ -2265,6 +2332,7 @@
 				4CC890BB1E5E876E00CA64DA /* MJRefreshAutoStateFooter.m in Sources */,
 				4CC890B01E5E876E00CA64DA /* NSObject+MJCoding.m in Sources */,
 				4C51D25D1E61561B0079F2BD /* MeViewTableViewCell.m in Sources */,
+				4CF05F981E6515A6004C2401 /* WaitingOrderTableViewCell.m in Sources */,
 				4CC890CD1E5E876E00CA64DA /* SDWebImageDownloader.m in Sources */,
 				4CC890D31E5E876E00CA64DA /* UIImage+MultiFormat.m in Sources */,
 				4CC890C61E5E876E00CA64DA /* UIScrollView+MJRefresh.m in Sources */,

@@ -108,7 +108,7 @@
     UIColor * titleColor =[UIColor darkTextColor];
     [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
                                                                      titleColor, NSForegroundColorAttributeName,
-                                                                     [UIFont fontWithName:@"CourierNewPSMT" size:20.0], NSFontAttributeName,
+                                                                     [UIFont fontWithName:@"CourierNewPSMT" size:18.0], NSFontAttributeName,
                                                                      nil]];
     self.navigationController.navigationBar.barTintColor =    AppMCNACOLOR;
     self.navigationController.navigationBar.tintColor = AppCOLOR;//RGBCOLOR(127, 125, 147);

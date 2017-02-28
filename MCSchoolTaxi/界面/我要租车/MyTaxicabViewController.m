@@ -9,6 +9,8 @@
 #import "MyTaxicabViewController.h"
 #import "MCMapView.h"
 #import "CycleScrollView.h"
+#import "WaitingOrderViewController.h"
+
 @interface MyTaxicabViewController ()
 {
     
@@ -19,7 +21,7 @@
     UIButton * _promptlyBtn;//立即
 
     
-    UIButton * _IngBtn;//
+    UIButton * _IngBtn;//中间
 
     
 }
@@ -127,8 +129,51 @@
     _IngBtn = [[UIButton alloc]initWithFrame:CGRectMake(x, y, w, h)];
     
     [_IngBtn setImage:[UIImage imageNamed:@"map_btn_on"] forState:0];
+    [_IngBtn addTarget:self action:@selector(actionIngBtn:) forControlEvents:1<<6];
 //    _IngBtn.hidden = YES;
+    _IngBtn.tag = 100;
+
     [self.view addSubview:_IngBtn];
+    
+    y -= (10+_IngBtn.mj_h);
+    UIButton * btn =[[UIButton alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    [btn setImage:[UIImage imageNamed:@"map_btn_waiting"] forState:0];
+    [btn addTarget:self action:@selector(actionIngBtn:) forControlEvents:1<<6];
+    btn.tag = 101;
+    //    _IngBtn.hidden = YES;
+    [self.view addSubview:btn];
+    y -= (10+_IngBtn.mj_h);
+    btn =[[UIButton alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    [btn setImage:[UIImage imageNamed:@"map_btn_pay"] forState:0];
+    [btn addTarget:self action:@selector(actionIngBtn:) forControlEvents:1<<6];
+    btn.tag = 102;
+    //    _IngBtn.hidden = YES;
+    [self.view addSubview:btn];
+
+    y -= (10+_IngBtn.mj_h);
+    btn =[[UIButton alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    [btn setImage:[UIImage imageNamed:@"map_btn_give"] forState:0];
+    [btn addTarget:self action:@selector(actionIngBtn:) forControlEvents:1<<6];
+    btn.tag = 103;
+    //    _IngBtn.hidden = YES;
+    [self.view addSubview:btn];
+    
+
+    
+    
+}
+-(void)actionIngBtn:(UIButton*)btn{
+    if (btn.tag == 101) {
+        WaitingOrderViewController * ctl =[[WaitingOrderViewController alloc]init];
+        [self pushNewViewController:ctl];
+
+    }
+    else if (btn.tag == 102){
+        
+        
+    }
+    
+    
     
 }
 - (void)didReceiveMemoryWarning {
