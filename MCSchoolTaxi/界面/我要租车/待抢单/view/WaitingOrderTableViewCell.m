@@ -34,19 +34,31 @@
     w = Main_Screen_Width - x;
     h = 44;
     
-    _titleLbl  =[[UILabel alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    _titleLbl  =[[UITextField alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    _titleLbl.userInteractionEnabled = NO;
     _titleLbl.textColor =[UIColor grayColor];
     _titleLbl.font =[UIFont systemFontOfSize:14];
     [self.contentView addSubview:_titleLbl];
+    
+    _btn1 = [[UIButton alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    [self.contentView addSubview:_btn1];
+
+    
+    
     UIView * lineView =[[UIView alloc]initWithFrame:CGRectMake(x, 44, w, 1)];
+    
     lineView.backgroundColor =[UIColor groupTableViewBackgroundColor];
     [self.contentView addSubview:lineView];
 
     y = 45;
-    _titleSubLbl  =[[UILabel alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    _titleSubLbl  =[[UITextField alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    _titleSubLbl.userInteractionEnabled = NO;
+
     _titleSubLbl.textColor =[UIColor grayColor];
     _titleSubLbl.font =[UIFont systemFontOfSize:14];
     [self.contentView addSubview:_titleSubLbl];
+    _btn2 = [[UIButton alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    [self.contentView addSubview:_btn2];
 
     
     

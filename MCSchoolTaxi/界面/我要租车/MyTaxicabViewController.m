@@ -10,6 +10,9 @@
 #import "MCMapView.h"
 #import "CycleScrollView.h"
 #import "WaitingOrderViewController.h"
+#import "SubscribeViewController.h"
+#import "AcceptOrderViewController.h"
+#import "WaitPaymentViewController.h"
 
 @interface MyTaxicabViewController ()
 {
@@ -111,6 +114,7 @@
     y = Main_Screen_Height - 49 - 30 - h;
     
     _subscribeBtn = [[UIButton alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    [_subscribeBtn addTarget:self action:@selector(actionSubBtn) forControlEvents:1<<6];
 //    _subscribeBtn.backgroundColor =[UIColor redColor];
     [_subscribeBtn setImage:[UIImage imageNamed:@"map_btn_book"] forState:0];
     [self.view addSubview:_subscribeBtn];
@@ -163,15 +167,45 @@
     
 }
 -(void)actionIngBtn:(UIButton*)btn{
-    if (btn.tag == 101) {
+    if (btn.tag == 101) {//待抢单
         WaitingOrderViewController * ctl =[[WaitingOrderViewController alloc]init];
         [self pushNewViewController:ctl];
 
     }
     else if (btn.tag == 102){
+        WaitPaymentViewController * ctl =[[WaitPaymentViewController alloc]init];
+        [self pushNewViewController:ctl];
+        
+  
+        
+    }
+    else if (btn.tag == 103){//接单中
+        AcceptOrderViewController * ctl =[[AcceptOrderViewController alloc]init];
+        [self pushNewViewController:ctl];
+
+        
+    }
+    else if (btn.tag == 100){//进行中
+        AcceptOrderViewController * ctl =[[AcceptOrderViewController alloc]init];
+        ctl.stateIndex = 1;
+        [self pushNewViewController:ctl];
         
         
     }
+
+    
+
+    
+    
+}
+#pragma mark-预约
+-(void)actionSubBtn{
+   
+    
+    SubscribeViewController * ctl =[[SubscribeViewController alloc]init];
+    [self pushNewViewController:ctl];
+ 
+    
     
     
     
