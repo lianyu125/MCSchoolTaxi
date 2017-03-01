@@ -7,6 +7,8 @@
 //
 
 #import "WaitPaymentViewController.h"
+#import "PayStateViewController.h"
+#import "MyDiscountViewController.h"
 
 @interface WaitPaymentViewController ()
 {
@@ -211,15 +213,73 @@
     
     w = bgview.mj_w / 2;
     x -=w;
-    yuLbl =[[UILabel alloc]initWithFrame:CGRectMake(x, y, w, h)];
-    yuLbl.text = @"￥22.00";
-    yuLbl.textAlignment = NSTextAlignmentRight;
-    yuLbl.textColor = [UIColor grayColor];
-    yuLbl.font =[UIFont systemFontOfSize:14];
-    [bgview addSubview:yuLbl];
+   jinLbl =[[UILabel alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    jinLbl.text = @"￥22.00";
+    jinLbl.textAlignment = NSTextAlignmentRight;
+    jinLbl.textColor = [UIColor grayColor];
+    jinLbl.font =[UIFont systemFontOfSize:14];
+    [bgview addSubview:jinLbl];
+
+    UIButton * jinbtn =[[UIButton alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    [jinbtn addTarget:self action:@selector(actionJinBtn) forControlEvents:1<<6];
+    [bgview addSubview:jinbtn];
+    
+    
+    y = bgview.mj_y + bgview.mj_h + 10;
+    h = 44;
+    w = bgview.mj_w;
+    x = 10;
+    bgview =[[UIView alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    bgview.backgroundColor = [UIColor whiteColor];
+    ViewBorderRadius(bgview, 3, 1, [UIColor groupTableViewBackgroundColor]);
+    [self.view addSubview:bgview];
+    
+    x = 10;
+    w = 100;
+    h = 44;
+    y = 0;
+    lbl =[[UILabel alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    lbl.text = @"您的余额";
+    lbl.textColor = [UIColor grayColor];
+    lbl.font =[UIFont systemFontOfSize:14];
+    [bgview addSubview:lbl];
+ 
+    w = bgview.mj_w / 2;
+    x = bgview.mj_w - 10 - w;
+    jinLbl =[[UILabel alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    jinLbl.text = @"￥22.00";
+    jinLbl.textAlignment = NSTextAlignmentRight;
+    jinLbl.textColor = [UIColor grayColor];
+    jinLbl.font =[UIFont systemFontOfSize:14];
+    [bgview addSubview:jinLbl];
 
     
+    y =bgview.mj_h  + bgview.mj_y + 40;
+    x = 30;
+    w = Main_Screen_Width - 60;
+    h = 40;
     
+    btn =[[UIButton alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    [btn setTitle:@"支付" forState:0];
+    [btn setTitleColor:[UIColor whiteColor] forState:0];
+    btn.titleLabel.font =[UIFont systemFontOfSize:15];
+    ViewRadius(btn, 5);
+    btn.backgroundColor = AppCOLOR;
+    [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(actionPay) forControlEvents:1<<6];
+    
+    
+    
+}
+-(void)actionPay{
+    PayStateViewController * ctl =[[PayStateViewController alloc]init];
+    [self pushNewViewController:ctl];
+    
+}
+-(void)actionJinBtn{
+    MyDiscountViewController * ctl =[[MyDiscountViewController alloc]init];
+    [self pushNewViewController:ctl];
+
     
     
 }

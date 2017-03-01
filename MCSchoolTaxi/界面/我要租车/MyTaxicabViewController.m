@@ -13,6 +13,7 @@
 #import "SubscribeViewController.h"
 #import "AcceptOrderViewController.h"
 #import "WaitPaymentViewController.h"
+#import "PromptlyOrderViewController.h"
 
 @interface MyTaxicabViewController ()
 {
@@ -123,6 +124,7 @@
     _promptlyBtn = [[UIButton alloc]initWithFrame:CGRectMake(x, y, w, h)];
 //    _promptlyBtn.backgroundColor =[UIColor redColor];
     [_promptlyBtn setImage:[UIImage imageNamed:@"map_btn_immediately"] forState:0];
+    [_promptlyBtn addTarget:self action:@selector(actionpromptlyBtn) forControlEvents:1<<6];
 
     [self.view addSubview:_promptlyBtn];
 
@@ -207,6 +209,16 @@
  
     
     
+    
+    
+}
+-(void)actionpromptlyBtn{
+    
+    PromptlyOrderViewController * ctl =[[PromptlyOrderViewController alloc]init];
+    [self pushNewViewController:ctl];
+    
+    
+
     
     
 }

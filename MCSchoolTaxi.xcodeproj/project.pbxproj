@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C4DF3F71E6715C5004DBAEF /* PromptlyOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DF3F61E6715C5004DBAEF /* PromptlyOrderViewController.m */; };
 		4C51D2591E613EFB0079F2BD /* OrderViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C51D2581E613EFB0079F2BD /* OrderViewTableViewCell.m */; };
 		4C51D25D1E61561B0079F2BD /* MeViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C51D25C1E61561B0079F2BD /* MeViewTableViewCell.m */; };
 		4C51D2601E61643C0079F2BD /* PersonalDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C51D25F1E61643C0079F2BD /* PersonalDataViewController.m */; };
@@ -337,11 +338,15 @@
 		4CC8912D1E5E93D200CA64DA /* MCMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8912C1E5E93D200CA64DA /* MCMapView.m */; };
 		4CC986401E6472BC00161BB5 /* OrderDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9863F1E6472BC00161BB5 /* OrderDetailsViewController.m */; };
 		4CC986431E64778D00161BB5 /* OrderDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC986421E64778D00161BB5 /* OrderDetailsTableViewCell.m */; };
+		4CD726041E6695B000611814 /* AcceptOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD726031E6695B000611814 /* AcceptOrderViewController.m */; };
+		4CD726081E6695F200611814 /* SubscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD726071E6695F200611814 /* SubscribeViewController.m */; };
+		4CD7260C1E66979D00611814 /* PayStateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD7260B1E66979D00611814 /* PayStateViewController.m */; };
+		4CD726111E669CBB00611814 /* MyDiscountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD726101E669CBB00611814 /* MyDiscountViewController.m */; };
+		4CD726141E669D8200611814 /* MyDiscountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD726131E669D8200611814 /* MyDiscountTableViewCell.m */; };
 		4CF05F941E650F11004C2401 /* WaitingOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF05F931E650F11004C2401 /* WaitingOrderViewController.m */; };
 		4CF05F981E6515A6004C2401 /* WaitingOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF05F971E6515A6004C2401 /* WaitingOrderTableViewCell.m */; };
 		4CF05F9B1E651A48004C2401 /* photos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF05F991E651A48004C2401 /* photos@2x.png */; };
 		4CF05F9C1E651A48004C2401 /* photos@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF05F9A1E651A48004C2401 /* photos@3x.png */; };
-		4CF05FA01E652125004C2401 /* SubscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF05F9F1E652125004C2401 /* SubscribeViewController.m */; };
 		4CF05FA31E65281D004C2401 /* MCSeleAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF05FA21E65281D004C2401 /* MCSeleAlertView.m */; };
 		4CF05FAA1E654131004C2401 /* MHDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF05FA61E654131004C2401 /* MHDatePicker.m */; };
 		4CF05FAB1E654131004C2401 /* MHSelectPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF05FA81E654131004C2401 /* MHSelectPickerView.m */; };
@@ -349,7 +354,6 @@
 		4CF05FB01E654DEA004C2401 /* CSItemSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF05FAF1E654DEA004C2401 /* CSItemSelectView.m */; };
 		4CF05FB31E6565B9004C2401 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF05FB11E6565B9004C2401 /* bg@2x.png */; };
 		4CF05FB41E6565B9004C2401 /* bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF05FB21E6565B9004C2401 /* bg@3x.png */; };
-		4CF05FB71E657399004C2401 /* AcceptOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF05FB61E657399004C2401 /* AcceptOrderViewController.m */; };
 		4CF05FBA1E657FAF004C2401 /* WaitPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF05FB91E657FAF004C2401 /* WaitPaymentViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -371,6 +375,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C4DF3F51E6715C5004DBAEF /* PromptlyOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromptlyOrderViewController.h; sourceTree = "<group>"; };
+		4C4DF3F61E6715C5004DBAEF /* PromptlyOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromptlyOrderViewController.m; sourceTree = "<group>"; };
 		4C51D2571E613EFB0079F2BD /* OrderViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewTableViewCell.h; sourceTree = "<group>"; };
 		4C51D2581E613EFB0079F2BD /* OrderViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewTableViewCell.m; sourceTree = "<group>"; };
 		4C51D25B1E61561B0079F2BD /* MeViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewTableViewCell.h; sourceTree = "<group>"; };
@@ -847,14 +853,22 @@
 		4CC9863F1E6472BC00161BB5 /* OrderDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailsViewController.m; sourceTree = "<group>"; };
 		4CC986411E64778D00161BB5 /* OrderDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailsTableViewCell.h; sourceTree = "<group>"; };
 		4CC986421E64778D00161BB5 /* OrderDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailsTableViewCell.m; sourceTree = "<group>"; };
+		4CD726021E6695B000611814 /* AcceptOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcceptOrderViewController.h; sourceTree = "<group>"; };
+		4CD726031E6695B000611814 /* AcceptOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcceptOrderViewController.m; sourceTree = "<group>"; };
+		4CD726061E6695F200611814 /* SubscribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscribeViewController.h; sourceTree = "<group>"; };
+		4CD726071E6695F200611814 /* SubscribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribeViewController.m; sourceTree = "<group>"; };
+		4CD7260A1E66979D00611814 /* PayStateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayStateViewController.h; sourceTree = "<group>"; };
+		4CD7260B1E66979D00611814 /* PayStateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayStateViewController.m; sourceTree = "<group>"; };
+		4CD7260F1E669CBB00611814 /* MyDiscountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDiscountViewController.h; sourceTree = "<group>"; };
+		4CD726101E669CBB00611814 /* MyDiscountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDiscountViewController.m; sourceTree = "<group>"; };
+		4CD726121E669D8200611814 /* MyDiscountTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDiscountTableViewCell.h; sourceTree = "<group>"; };
+		4CD726131E669D8200611814 /* MyDiscountTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDiscountTableViewCell.m; sourceTree = "<group>"; };
 		4CF05F921E650F11004C2401 /* WaitingOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingOrderViewController.h; sourceTree = "<group>"; };
 		4CF05F931E650F11004C2401 /* WaitingOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingOrderViewController.m; sourceTree = "<group>"; };
 		4CF05F961E6515A6004C2401 /* WaitingOrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingOrderTableViewCell.h; sourceTree = "<group>"; };
 		4CF05F971E6515A6004C2401 /* WaitingOrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingOrderTableViewCell.m; sourceTree = "<group>"; };
 		4CF05F991E651A48004C2401 /* photos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photos@2x.png"; sourceTree = "<group>"; };
 		4CF05F9A1E651A48004C2401 /* photos@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photos@3x.png"; sourceTree = "<group>"; };
-		4CF05F9E1E652125004C2401 /* SubscribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscribeViewController.h; sourceTree = "<group>"; };
-		4CF05F9F1E652125004C2401 /* SubscribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribeViewController.m; sourceTree = "<group>"; };
 		4CF05FA11E65281D004C2401 /* MCSeleAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSeleAlertView.h; sourceTree = "<group>"; };
 		4CF05FA21E65281D004C2401 /* MCSeleAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSeleAlertView.m; sourceTree = "<group>"; };
 		4CF05FA51E654131004C2401 /* MHDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDatePicker.h; sourceTree = "<group>"; };
@@ -866,8 +880,6 @@
 		4CF05FAF1E654DEA004C2401 /* CSItemSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSItemSelectView.m; sourceTree = "<group>"; };
 		4CF05FB11E6565B9004C2401 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
 		4CF05FB21E6565B9004C2401 /* bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@3x.png"; sourceTree = "<group>"; };
-		4CF05FB51E657399004C2401 /* AcceptOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcceptOrderViewController.h; sourceTree = "<group>"; };
-		4CF05FB61E657399004C2401 /* AcceptOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcceptOrderViewController.m; sourceTree = "<group>"; };
 		4CF05FB81E657FAF004C2401 /* WaitPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitPaymentViewController.h; sourceTree = "<group>"; };
 		4CF05FB91E657FAF004C2401 /* WaitPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitPaymentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -909,6 +921,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C4DF3F41E671578004DBAEF /* 立即租车 */ = {
+			isa = PBXGroup;
+			children = (
+				4C4DF3F51E6715C5004DBAEF /* PromptlyOrderViewController.h */,
+				4C4DF3F61E6715C5004DBAEF /* PromptlyOrderViewController.m */,
+			);
+			path = "立即租车";
+			sourceTree = "<group>";
+		};
 		4C51D25A1E6156140079F2BD /* view */ = {
 			isa = PBXGroup;
 			children = (
@@ -1730,6 +1751,7 @@
 		4CC890E31E5E87BF00CA64DA /* 界面 */ = {
 			isa = PBXGroup;
 			children = (
+				4CD726091E66977000611814 /* controlView */,
 				4CC891041E5E8D5800CA64DA /* model */,
 				4CC890E41E5E87BF00CA64DA /* 我是车主 */,
 				4CC890E51E5E87BF00CA64DA /* 我的 */,
@@ -1754,6 +1776,7 @@
 		4CC890E51E5E87BF00CA64DA /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				4CD7260D1E669C9700611814 /* 我的代金劵 */,
 				4C51D25A1E6156140079F2BD /* view */,
 				4CC890EE1E5E8B1C00CA64DA /* MeViewController.h */,
 				4CC890EF1E5E8B1C00CA64DA /* MeViewController.m */,
@@ -1766,12 +1789,11 @@
 		4CC890E61E5E87BF00CA64DA /* 我要租车 */ = {
 			isa = PBXGroup;
 			children = (
-				4CF05F9D1E6520C6004C2401 /* 预约 */,
+				4C4DF3F41E671578004DBAEF /* 立即租车 */,
+				4CD726051E6695F200611814 /* 预约待抢单 */,
+				4CD726011E6695B000611814 /* 接单中进行中 */,
 				4CF05F8E1E650D65004C2401 /* 待付款 */,
 				4CF05F8F1E650D65004C2401 /* 待抢单 */,
-				4CF05F901E650D65004C2401 /* 接单中 */,
-				4CF05F911E650D65004C2401 /* 进行中 */,
-				4CF05F8D1E650CEB004C2401 /* 待抢单 */,
 				4CC8910C1E5E8F8A00CA64DA /* view */,
 				4CC890E81E5E8AF100CA64DA /* MyTaxicabViewController.h */,
 				4CC890E91E5E8AF100CA64DA /* MyTaxicabViewController.m */,
@@ -1877,11 +1899,50 @@
 			path = view;
 			sourceTree = "<group>";
 		};
-		4CF05F8D1E650CEB004C2401 /* 待抢单 */ = {
+		4CD726011E6695B000611814 /* 接单中进行中 */ = {
 			isa = PBXGroup;
 			children = (
+				4CD726021E6695B000611814 /* AcceptOrderViewController.h */,
+				4CD726031E6695B000611814 /* AcceptOrderViewController.m */,
 			);
-			path = "待抢单";
+			path = "接单中进行中";
+			sourceTree = "<group>";
+		};
+		4CD726051E6695F200611814 /* 预约待抢单 */ = {
+			isa = PBXGroup;
+			children = (
+				4CD726061E6695F200611814 /* SubscribeViewController.h */,
+				4CD726071E6695F200611814 /* SubscribeViewController.m */,
+			);
+			path = "预约待抢单";
+			sourceTree = "<group>";
+		};
+		4CD726091E66977000611814 /* controlView */ = {
+			isa = PBXGroup;
+			children = (
+				4CD7260A1E66979D00611814 /* PayStateViewController.h */,
+				4CD7260B1E66979D00611814 /* PayStateViewController.m */,
+			);
+			path = controlView;
+			sourceTree = "<group>";
+		};
+		4CD7260D1E669C9700611814 /* 我的代金劵 */ = {
+			isa = PBXGroup;
+			children = (
+				4CD7260E1E669C9700611814 /* view */,
+				4CD7260F1E669CBB00611814 /* MyDiscountViewController.h */,
+				4CD726101E669CBB00611814 /* MyDiscountViewController.m */,
+			);
+			path = "我的代金劵";
+			sourceTree = "<group>";
+		};
+		4CD7260E1E669C9700611814 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4CD726121E669D8200611814 /* MyDiscountTableViewCell.h */,
+				4CD726131E669D8200611814 /* MyDiscountTableViewCell.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		4CF05F8E1E650D65004C2401 /* 待付款 */ = {
@@ -1903,22 +1964,6 @@
 			path = "待抢单";
 			sourceTree = "<group>";
 		};
-		4CF05F901E650D65004C2401 /* 接单中 */ = {
-			isa = PBXGroup;
-			children = (
-				4CF05FB51E657399004C2401 /* AcceptOrderViewController.h */,
-				4CF05FB61E657399004C2401 /* AcceptOrderViewController.m */,
-			);
-			path = "接单中";
-			sourceTree = "<group>";
-		};
-		4CF05F911E650D65004C2401 /* 进行中 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "进行中";
-			sourceTree = "<group>";
-		};
 		4CF05F951E651599004C2401 /* view */ = {
 			isa = PBXGroup;
 			children = (
@@ -1926,15 +1971,6 @@
 				4CF05F971E6515A6004C2401 /* WaitingOrderTableViewCell.m */,
 			);
 			path = view;
-			sourceTree = "<group>";
-		};
-		4CF05F9D1E6520C6004C2401 /* 预约 */ = {
-			isa = PBXGroup;
-			children = (
-				4CF05F9E1E652125004C2401 /* SubscribeViewController.h */,
-				4CF05F9F1E652125004C2401 /* SubscribeViewController.m */,
-			);
-			path = "预约";
 			sourceTree = "<group>";
 		};
 		4CF05FA41E654131004C2401 /* MHDatePicker */ = {
@@ -2327,6 +2363,7 @@
 				4CC890DF1E5E876E00CA64DA /* NullSafe.m in Sources */,
 				4CC890E01E5E876E00CA64DA /* UIColor+Extensions.m in Sources */,
 				4C5314F11E5FC55000C757A2 /* CycleScrollView.m in Sources */,
+				4CD726081E6695F200611814 /* SubscribeViewController.m in Sources */,
 				4CC890DD1E5E876E00CA64DA /* NSDictionary+Log.m in Sources */,
 				4CC890B81E5E876E00CA64DA /* MJRefreshHeader.m in Sources */,
 				4CC890AE1E5E876E00CA64DA /* MJPropertyType.m in Sources */,
@@ -2339,10 +2376,10 @@
 				4CC890981E5E876E00CA64DA /* UIImageView+AFNetworking.m in Sources */,
 				4CC890FC1E5E8BCA00CA64DA /* MCToolsManage.m in Sources */,
 				4CF05FBA1E657FAF004C2401 /* WaitPaymentViewController.m in Sources */,
+				4CD726041E6695B000611814 /* AcceptOrderViewController.m in Sources */,
 				4CC890AF1E5E876E00CA64DA /* NSObject+MJClass.m in Sources */,
 				4CC8909D1E5E876E00CA64DA /* IQNSArray+Sort.m in Sources */,
 				4CC890AB1E5E876E00CA64DA /* MJFoundation.m in Sources */,
-				4CF05FA01E652125004C2401 /* SubscribeViewController.m in Sources */,
 				4CC88F951E5E85BD00CA64DA /* ViewController.m in Sources */,
 				4CC890A21E5E876E00CA64DA /* IQSegmentedNextPrevious.m in Sources */,
 				4CC890971E5E876E00CA64DA /* UIButton+AFNetworking.m in Sources */,
@@ -2359,7 +2396,6 @@
 				4CC88F921E5E85BD00CA64DA /* AppDelegate.m in Sources */,
 				4CC890DE1E5E876E00CA64DA /* NSString+RemoveEmoji.m in Sources */,
 				4C5316AC1E60295A00C757A2 /* ImmeOrderViewController.m in Sources */,
-				4CF05FB71E657399004C2401 /* AcceptOrderViewController.m in Sources */,
 				4CC890B41E5E876E00CA64DA /* MJRefreshAutoFooter.m in Sources */,
 				4CC890C71E5E876E00CA64DA /* UIView+MJExtension.m in Sources */,
 				4C5316761E600CB300C757A2 /* HClSheetView.m in Sources */,
@@ -2381,6 +2417,7 @@
 				4C5316801E6011A800C757A2 /* AlertViewExtension.m in Sources */,
 				4C5314F41E5FC68500C757A2 /* NSTimer+Addition.m in Sources */,
 				4C5316A41E6028D300C757A2 /* ZJTitleView.m in Sources */,
+				4CD726111E669CBB00611814 /* MyDiscountViewController.m in Sources */,
 				4CC890A01E5E876E00CA64DA /* IQKeyboardManager.m in Sources */,
 				4C53166F1E600CB300C757A2 /* HClActionSheet.m in Sources */,
 				4CC890B61E5E876E00CA64DA /* MJRefreshComponent.m in Sources */,
@@ -2389,6 +2426,7 @@
 				4CC8909A1E5E876E00CA64DA /* UIRefreshControl+AFNetworking.m in Sources */,
 				4C53165F1E5FE4BA00C757A2 /* OwnerAuthenViewController.m in Sources */,
 				4CC890B91E5E876E00CA64DA /* MJRefreshAutoGifFooter.m in Sources */,
+				4C4DF3F71E6715C5004DBAEF /* PromptlyOrderViewController.m in Sources */,
 				4CC891031E5E8CD100CA64DA /* MCDataMmodel.m in Sources */,
 				4C53169D1E6028D300C757A2 /* UIView+ZJFrame.m in Sources */,
 				4C5316831E60154A00C757A2 /* MerchantAutherViewController.m in Sources */,
@@ -2403,9 +2441,11 @@
 				4CC8908F1E5E876E00CA64DA /* AFSecurityPolicy.m in Sources */,
 				4CC890901E5E876E00CA64DA /* AFURLRequestSerialization.m in Sources */,
 				4CC890D71E5E876E00CA64DA /* BaseViewController.m in Sources */,
+				4CD726141E669D8200611814 /* MyDiscountTableViewCell.m in Sources */,
 				4CC890951E5E876E00CA64DA /* AFNetworkActivityIndicatorManager.m in Sources */,
 				4CC8912A1E5E92F100CA64DA /* MCMApManager.m in Sources */,
 				4CC890911E5E876E00CA64DA /* AFURLResponseSerialization.m in Sources */,
+				4CD7260C1E66979D00611814 /* PayStateViewController.m in Sources */,
 				4CC8908D1E5E876E00CA64DA /* AFHTTPSessionManager.m in Sources */,
 				4CC890BB1E5E876E00CA64DA /* MJRefreshAutoStateFooter.m in Sources */,
 				4CC890B01E5E876E00CA64DA /* NSObject+MJCoding.m in Sources */,
