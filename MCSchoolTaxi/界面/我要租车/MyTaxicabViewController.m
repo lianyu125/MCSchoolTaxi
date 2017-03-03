@@ -34,9 +34,15 @@
 @end
 
 @implementation MyTaxicabViewController
-
+-(void)RB{
+    
+    LoginViewController * ctl  =[[LoginViewController alloc]init];
+    [self pushNewViewController:ctl];
+    
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"测试登录UI" style:UIBarButtonItemStylePlain target:self action:@selector(RB)];
     [self addMapView];
     [self prepareUI];
     // Do any additional setup after loading the view.

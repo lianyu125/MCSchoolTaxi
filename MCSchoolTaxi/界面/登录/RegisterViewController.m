@@ -1,31 +1,35 @@
 //
-//  LoginViewController.m
+//  RegisterViewController.m
 //  MCSchoolTaxi
 //
-//  Created by MC on 2017/2/23.
+//  Created by MC on 2017/3/2.
 //  Copyright © 2017年 MC. All rights reserved.
 //
 
-#import "LoginViewController.h"
 #import "RegisterViewController.h"
 
-@interface LoginViewController ()
+@interface RegisterViewController ()
 {
     UITextField * phoneText;
-    UITextField * pwdText;
+
+    UITextField * VccText;
+    
+    
+    UIButton * vccBtn;
+    
+    
 
     
 }
 
 @end
 
-@implementation LoginViewController
+@implementation RegisterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"登录";
+    self.title = @"注册";
     [self prepareUI];
-    
     // Do any additional setup after loading the view.
 }
 -(void)prepareUI{
@@ -43,7 +47,7 @@
     UIImageView * imgview = [[UIImageView alloc]initWithFrame:CGRectMake(x, y, w, h)];
     imgview.image = [UIImage imageNamed:@"login_phone"];
     [self.view addSubview:imgview];
-
+    
     y-=10;
     x +=w + 10;
     w= Main_Screen_Width - 2*x;
@@ -61,24 +65,31 @@
     lineView.backgroundColor =[UIColor lightGrayColor];
     
     [self.view addSubview:lineView];
-
+    
     y+=h+20+10;
     x = 40;
     w = 20;
     h =20;
-     imgview = [[UIImageView alloc]initWithFrame:CGRectMake(x, y, w, h)];
-    imgview.image = [UIImage imageNamed:@"login_pw"];
+    imgview = [[UIImageView alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    imgview.image = [UIImage imageNamed:@"login_code"];
     [self.view addSubview:imgview];
-
+    
+    CGFloat vccW = [MCToolsManage heightforString:@"获取验证码" andHeight:40 fontSize:14];
+    
     y-=10;
     x +=w + 10;
-    w= Main_Screen_Width - 2*x;
+    w= Main_Screen_Width - 2*x -vccW - 5;
     h = 40;
-    pwdText = [[UITextField alloc]initWithFrame:CGRectMake(x, y, w, h)];
-    pwdText.placeholder =@"请输入密码";
-    pwdText.font =[UIFont systemFontOfSize:15];
-    pwdText.textColor = [UIColor grayColor];
-    [self.view addSubview:pwdText];
+    VccText = [[UITextField alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    VccText.placeholder =@"请输入验证码";
+    VccText.font =[UIFont systemFontOfSize:15];
+    VccText.textColor = [UIColor grayColor];
+    [self.view addSubview:VccText];
+    
+    x = Main_Screen_Width - 35 - vccW;
+    
+    
+    
     y+=h;
     x = 35;
     w = Main_Screen_Width - 2*x;
@@ -98,7 +109,7 @@
     btn.titleLabel.font =[UIFont systemFontOfSize:14];
     [self.view addSubview:btn];
     [btn addTarget:self action:@selector(actionWjBtn) forControlEvents:1<<6];
-
+    
     
     
     y=lineView.mj_h + lineView.mj_y + 60*MCHeightScale;
@@ -106,7 +117,7 @@
     x = 35;
     w = Main_Screen_Width - 2*x;
     btn =[[UIButton alloc]initWithFrame:CGRectMake(x, y, w, h)];
-    [btn setTitle:@"登录" forState:0];
+    [btn setTitle:@"下一步" forState:0];
     [btn setTitleColor:[UIColor whiteColor] forState:0];
     btn.titleLabel.font =[UIFont systemFontOfSize:15];
     ViewRadius(btn, 5);
@@ -127,26 +138,17 @@
     [self.view addSubview:lbl];
     w = [MCToolsManage heightforString:@"立即注册" andHeight:20 fontSize:14]+15;
     x = Main_Screen_Width/2;
-     btn =[[UIButton alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    btn =[[UIButton alloc]initWithFrame:CGRectMake(x, y, w, h)];
     [btn setTitleColor:self.appColor forState:0];
     btn.titleLabel.font =[UIFont systemFontOfSize:14];
     [btn setTitle:@"立即注册" forState:0];
-//    [btn addTarget:self action:@selector(actionBackBtn) forControlEvents:1<<6];
+    //    [btn addTarget:self action:@selector(actionBackBtn) forControlEvents:1<<6];
     [self.view addSubview:btn];
     [btn addTarget:self action:@selector(actionresBtn) forControlEvents:1<<6];
+    
+    
+}
 
-
-}
--(void)actionresBtn{
-    RegisterViewController * ctl =[[RegisterViewController alloc]init];
-    [self pushNewViewController:ctl];
-}
--(void)actionWjBtn{
-    
-    
-    
-    
-}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

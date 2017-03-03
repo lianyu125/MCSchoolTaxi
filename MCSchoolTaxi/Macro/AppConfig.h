@@ -34,6 +34,7 @@
 #import "MCMApManager.h"
 #import "HClActionSheet.h"
 #import "AlertViewExtension.h"
+#import "LoginViewController.h"
 
 #import <AMapFoundationKit/AMapFoundationKit.h>
 #import <MAMapKit/MAMapKit.h>

@@ -343,6 +343,7 @@
 		4CD7260C1E66979D00611814 /* PayStateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD7260B1E66979D00611814 /* PayStateViewController.m */; };
 		4CD726111E669CBB00611814 /* MyDiscountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD726101E669CBB00611814 /* MyDiscountViewController.m */; };
 		4CD726141E669D8200611814 /* MyDiscountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD726131E669D8200611814 /* MyDiscountTableViewCell.m */; };
+		4CEB812D1E67C5AE008FC7D7 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB812C1E67C5AD008FC7D7 /* RegisterViewController.m */; };
 		4CF05F941E650F11004C2401 /* WaitingOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF05F931E650F11004C2401 /* WaitingOrderViewController.m */; };
 		4CF05F981E6515A6004C2401 /* WaitingOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF05F971E6515A6004C2401 /* WaitingOrderTableViewCell.m */; };
 		4CF05F9B1E651A48004C2401 /* photos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF05F991E651A48004C2401 /* photos@2x.png */; };
@@ -863,6 +864,8 @@
 		4CD726101E669CBB00611814 /* MyDiscountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDiscountViewController.m; sourceTree = "<group>"; };
 		4CD726121E669D8200611814 /* MyDiscountTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDiscountTableViewCell.h; sourceTree = "<group>"; };
 		4CD726131E669D8200611814 /* MyDiscountTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDiscountTableViewCell.m; sourceTree = "<group>"; };
+		4CEB812B1E67C5AD008FC7D7 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		4CEB812C1E67C5AD008FC7D7 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		4CF05F921E650F11004C2401 /* WaitingOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingOrderViewController.h; sourceTree = "<group>"; };
 		4CF05F931E650F11004C2401 /* WaitingOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingOrderViewController.m; sourceTree = "<group>"; };
 		4CF05F961E6515A6004C2401 /* WaitingOrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingOrderTableViewCell.h; sourceTree = "<group>"; };
@@ -1806,6 +1809,8 @@
 			children = (
 				4CC890F11E5E8B2A00CA64DA /* LoginViewController.h */,
 				4CC890F21E5E8B2A00CA64DA /* LoginViewController.m */,
+				4CEB812B1E67C5AD008FC7D7 /* RegisterViewController.h */,
+				4CEB812C1E67C5AD008FC7D7 /* RegisterViewController.m */,
 			);
 			path = "登录";
 			sourceTree = "<group>";
@@ -2344,6 +2349,7 @@
 				4CC890A11E5E876E00CA64DA /* IQKeyboardReturnKeyHandler.m in Sources */,
 				4CC890F31E5E8B2A00CA64DA /* LoginViewController.m in Sources */,
 				4CF05FB01E654DEA004C2401 /* CSItemSelectView.m in Sources */,
+				4CEB812D1E67C5AE008FC7D7 /* RegisterViewController.m in Sources */,
 				4CC890B31E5E876E00CA64DA /* NSString+MJExtension.m in Sources */,
 				4C53169F1E6028D300C757A2 /* ZJCollectionView.m in Sources */,
 				4CC890BD1E5E876E00CA64DA /* MJRefreshBackNormalFooter.m in Sources */,
