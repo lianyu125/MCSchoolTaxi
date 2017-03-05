@@ -217,6 +217,10 @@
 		4C5316A91E60292D00C757A2 /* MakeOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5316A81E60292D00C757A2 /* MakeOrderViewController.m */; };
 		4C5316AC1E60295A00C757A2 /* ImmeOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5316AB1E60295A00C757A2 /* ImmeOrderViewController.m */; };
 		4C5316AF1E60297C00C757A2 /* SucceedOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5316AE1E60297C00C757A2 /* SucceedOrderViewController.m */; };
+		4C56677D1E6BD65000C29AFB /* RealNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C56677C1E6BD65000C29AFB /* RealNameViewController.m */; };
+		4C5667801E6BD75E00C29AFB /* RealNameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C56677F1E6BD75E00C29AFB /* RealNameTableViewCell.m */; };
+		4C5667831E6BE6F800C29AFB /* SeleCtSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5667821E6BE6F800C29AFB /* SeleCtSchoolViewController.m */; };
+		4C5667861E6BEC2000C29AFB /* RealName2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5667851E6BEC2000C29AFB /* RealName2ViewController.m */; };
 		4CC88F8F1E5E85BD00CA64DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC88F8E1E5E85BD00CA64DA /* main.m */; };
 		4CC88F921E5E85BD00CA64DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC88F911E5E85BD00CA64DA /* AppDelegate.m */; };
 		4CC88F951E5E85BD00CA64DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC88F941E5E85BD00CA64DA /* ViewController.m */; };
@@ -338,6 +342,7 @@
 		4CC8912D1E5E93D200CA64DA /* MCMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8912C1E5E93D200CA64DA /* MCMapView.m */; };
 		4CC986401E6472BC00161BB5 /* OrderDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9863F1E6472BC00161BB5 /* OrderDetailsViewController.m */; };
 		4CC986431E64778D00161BB5 /* OrderDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC986421E64778D00161BB5 /* OrderDetailsTableViewCell.m */; };
+		4CCEF71B1E6A92100047F396 /* SetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEF71A1E6A92100047F396 /* SetPasswordViewController.m */; };
 		4CD726041E6695B000611814 /* AcceptOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD726031E6695B000611814 /* AcceptOrderViewController.m */; };
 		4CD726081E6695F200611814 /* SubscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD726071E6695F200611814 /* SubscribeViewController.m */; };
 		4CD7260C1E66979D00611814 /* PayStateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD7260B1E66979D00611814 /* PayStateViewController.m */; };
@@ -616,6 +621,14 @@
 		4C5316AB1E60295A00C757A2 /* ImmeOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImmeOrderViewController.m; sourceTree = "<group>"; };
 		4C5316AD1E60297C00C757A2 /* SucceedOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SucceedOrderViewController.h; sourceTree = "<group>"; };
 		4C5316AE1E60297C00C757A2 /* SucceedOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SucceedOrderViewController.m; sourceTree = "<group>"; };
+		4C56677B1E6BD65000C29AFB /* RealNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealNameViewController.h; sourceTree = "<group>"; };
+		4C56677C1E6BD65000C29AFB /* RealNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealNameViewController.m; sourceTree = "<group>"; };
+		4C56677E1E6BD75E00C29AFB /* RealNameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealNameTableViewCell.h; sourceTree = "<group>"; };
+		4C56677F1E6BD75E00C29AFB /* RealNameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealNameTableViewCell.m; sourceTree = "<group>"; };
+		4C5667811E6BE6F800C29AFB /* SeleCtSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeleCtSchoolViewController.h; sourceTree = "<group>"; };
+		4C5667821E6BE6F800C29AFB /* SeleCtSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeleCtSchoolViewController.m; sourceTree = "<group>"; };
+		4C5667841E6BEC2000C29AFB /* RealName2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealName2ViewController.h; sourceTree = "<group>"; };
+		4C5667851E6BEC2000C29AFB /* RealName2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealName2ViewController.m; sourceTree = "<group>"; };
 		4CC88F8A1E5E85BD00CA64DA /* MCSchoolTaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCSchoolTaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC88F8E1E5E85BD00CA64DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CC88F901E5E85BD00CA64DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -854,6 +867,8 @@
 		4CC9863F1E6472BC00161BB5 /* OrderDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailsViewController.m; sourceTree = "<group>"; };
 		4CC986411E64778D00161BB5 /* OrderDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailsTableViewCell.h; sourceTree = "<group>"; };
 		4CC986421E64778D00161BB5 /* OrderDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailsTableViewCell.m; sourceTree = "<group>"; };
+		4CCEF7191E6A92100047F396 /* SetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetPasswordViewController.h; sourceTree = "<group>"; };
+		4CCEF71A1E6A92100047F396 /* SetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetPasswordViewController.m; sourceTree = "<group>"; };
 		4CD726021E6695B000611814 /* AcceptOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcceptOrderViewController.h; sourceTree = "<group>"; };
 		4CD726031E6695B000611814 /* AcceptOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcceptOrderViewController.m; sourceTree = "<group>"; };
 		4CD726061E6695F200611814 /* SubscribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscribeViewController.h; sourceTree = "<group>"; };
@@ -1276,6 +1291,29 @@
 			children = (
 				4C51D2571E613EFB0079F2BD /* OrderViewTableViewCell.h */,
 				4C51D2581E613EFB0079F2BD /* OrderViewTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4C5667791E6BD34D00C29AFB /* 认证 */ = {
+			isa = PBXGroup;
+			children = (
+				4C56677A1E6BD34D00C29AFB /* view */,
+				4C56677B1E6BD65000C29AFB /* RealNameViewController.h */,
+				4C56677C1E6BD65000C29AFB /* RealNameViewController.m */,
+				4C5667841E6BEC2000C29AFB /* RealName2ViewController.h */,
+				4C5667851E6BEC2000C29AFB /* RealName2ViewController.m */,
+				4C5667811E6BE6F800C29AFB /* SeleCtSchoolViewController.h */,
+				4C5667821E6BE6F800C29AFB /* SeleCtSchoolViewController.m */,
+			);
+			path = "认证";
+			sourceTree = "<group>";
+		};
+		4C56677A1E6BD34D00C29AFB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4C56677E1E6BD75E00C29AFB /* RealNameTableViewCell.h */,
+				4C56677F1E6BD75E00C29AFB /* RealNameTableViewCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1807,10 +1845,13 @@
 		4CC890E71E5E87BF00CA64DA /* 登录 */ = {
 			isa = PBXGroup;
 			children = (
+				4C5667791E6BD34D00C29AFB /* 认证 */,
 				4CC890F11E5E8B2A00CA64DA /* LoginViewController.h */,
 				4CC890F21E5E8B2A00CA64DA /* LoginViewController.m */,
 				4CEB812B1E67C5AD008FC7D7 /* RegisterViewController.h */,
 				4CEB812C1E67C5AD008FC7D7 /* RegisterViewController.m */,
+				4CCEF7191E6A92100047F396 /* SetPasswordViewController.h */,
+				4CCEF71A1E6A92100047F396 /* SetPasswordViewController.m */,
 			);
 			path = "登录";
 			sourceTree = "<group>";
@@ -2347,6 +2388,7 @@
 				4CC891001E5E8C3400CA64DA /* MCNetworkManager.m in Sources */,
 				4CC890CA1E5E876E00CA64DA /* SDImageCache.m in Sources */,
 				4CC890A11E5E876E00CA64DA /* IQKeyboardReturnKeyHandler.m in Sources */,
+				4CCEF71B1E6A92100047F396 /* SetPasswordViewController.m in Sources */,
 				4CC890F31E5E8B2A00CA64DA /* LoginViewController.m in Sources */,
 				4CF05FB01E654DEA004C2401 /* CSItemSelectView.m in Sources */,
 				4CEB812D1E67C5AE008FC7D7 /* RegisterViewController.m in Sources */,
@@ -2406,6 +2448,7 @@
 				4CC890C71E5E876E00CA64DA /* UIView+MJExtension.m in Sources */,
 				4C5316761E600CB300C757A2 /* HClSheetView.m in Sources */,
 				4CC890C21E5E876E00CA64DA /* MJChiBaoZiHeader.m in Sources */,
+				4C5667801E6BD75E00C29AFB /* RealNameTableViewCell.m in Sources */,
 				4CC890BE1E5E876E00CA64DA /* MJRefreshBackStateFooter.m in Sources */,
 				4C5316A21E6028D300C757A2 /* ZJScrollSegmentView.m in Sources */,
 				4CF05FAA1E654131004C2401 /* MHDatePicker.m in Sources */,
@@ -2435,12 +2478,15 @@
 				4C4DF3F71E6715C5004DBAEF /* PromptlyOrderViewController.m in Sources */,
 				4CC891031E5E8CD100CA64DA /* MCDataMmodel.m in Sources */,
 				4C53169D1E6028D300C757A2 /* UIView+ZJFrame.m in Sources */,
+				4C5667861E6BEC2000C29AFB /* RealName2ViewController.m in Sources */,
 				4C5316831E60154A00C757A2 /* MerchantAutherViewController.m in Sources */,
 				4CC986431E64778D00161BB5 /* OrderDetailsTableViewCell.m in Sources */,
 				4C51D2631E6164E80079F2BD /* PersonalDataTableViewCell.m in Sources */,
+				4C56677D1E6BD65000C29AFB /* RealNameViewController.m in Sources */,
 				4CC890C41E5E876E00CA64DA /* MJRefreshConst.m in Sources */,
 				4CC88F8F1E5E85BD00CA64DA /* main.m in Sources */,
 				4CC890931E5E876E00CA64DA /* AFAutoPurgingImageCache.m in Sources */,
+				4C5667831E6BE6F800C29AFB /* SeleCtSchoolViewController.m in Sources */,
 				4CC890B11E5E876E00CA64DA /* NSObject+MJKeyValue.m in Sources */,
 				4CC890BF1E5E876E00CA64DA /* MJRefreshGifHeader.m in Sources */,
 				4CC8909E1E5E876E00CA64DA /* IQUIView+Hierarchy.m in Sources */,

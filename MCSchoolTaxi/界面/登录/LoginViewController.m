@@ -52,6 +52,7 @@
     phoneText.placeholder =@"请输入手机号码";
     phoneText.font =[UIFont systemFontOfSize:15];
     phoneText.textColor = [UIColor grayColor];
+    phoneText.keyboardType =UIKeyboardTypeNumberPad;
     [self.view addSubview:phoneText];
     y+=h;
     x = 35;
@@ -78,6 +79,8 @@
     pwdText.placeholder =@"请输入密码";
     pwdText.font =[UIFont systemFontOfSize:15];
     pwdText.textColor = [UIColor grayColor];
+    pwdText.secureTextEntry = YES;
+
     [self.view addSubview:pwdText];
     y+=h;
     x = 35;
