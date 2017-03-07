@@ -36,11 +36,27 @@
     x +=w + 8;
     y+= 7.5;
     h = 20;//h-2*5;
-    w = MCAdaptiveW(144, 36, h);
-    UIImageView * huiyuanImgview =[[UIImageView alloc]initWithFrame:CGRectMake(x, y, w, h)];
-    huiyuanImgview.image =[UIImage imageNamed:@"label_vip_black"];
-    [self.contentView addSubview:huiyuanImgview];
+   
     
+    
+    if (_pushIndex == 1) {
+    w = [MCToolsManage heightforString:@"4900单" andHeight:h fontSize:12] + 20;
+    UILabel * numLbl =[[UILabel alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    numLbl.textColor = [UIColor orangeColor];
+    numLbl.text = @"4900单";
+    numLbl.font =[UIFont systemFontOfSize:12];
+    numLbl.textAlignment = NSTextAlignmentCenter;
+    ViewBorderRadius(numLbl, h/2, 1, [UIColor orangeColor]);
+    numLbl.backgroundColor =[UIColor whiteColor];
+    [self.contentView addSubview:numLbl];
+    }
+    else
+    {
+        w = MCAdaptiveW(144, 36, h);
+        UIImageView * huiyuanImgview =[[UIImageView alloc]initWithFrame:CGRectMake(x, y, w, h)];
+        huiyuanImgview.image =[UIImage imageNamed:@"label_vip_black"];
+        [self.contentView addSubview:huiyuanImgview];
+    }
     
     
     

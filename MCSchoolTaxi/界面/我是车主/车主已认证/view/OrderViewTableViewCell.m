@@ -9,6 +9,119 @@
 #import "OrderViewTableViewCell.h"
 
 @implementation OrderViewTableViewCell
+-(void)prepareUI2{
+    
+    for (UIView * view in self.contentView.subviews) {
+        [view removeFromSuperview];
+    }
+    
+    CGFloat x = 0;
+    CGFloat h =25;
+    CGFloat y = (40 -h)/2;
+    CGFloat w = [MCToolsManage heightforString:@"待抢单" andHeight:h fontSize:14]+20;
+    UIImageView * lblview =[[UIImageView alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    lblview.image =[UIImage imageNamed:@"label_status-bar"];
+    [self.contentView addSubview:lblview];
+    NSString * lblstr = @"待抢单";
+    if (_OrderIndex == 0) {
+        
+    }
+    else if (_OrderIndex == 1){
+        
+    }
+    else if (_OrderIndex == 2){
+        
+    }
+    UILabel *_statusLbl = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, lblview.mj_w, 25)];
+    _statusLbl.text = lblstr;
+    _statusLbl.font = [UIFont systemFontOfSize:14];
+    _statusLbl.textColor =[UIColor whiteColor];
+    _statusLbl.textAlignment = NSTextAlignmentCenter;
+    [lblview addSubview:_statusLbl];
+    
+    NSString *timeStr =[NSString stringWithFormat:@"2017-02-26 12:56:23 预约"] ;//@"2017-02-26 12:56:23";
+    x  = 0;
+    y = 0;
+    h = 40;
+    w= Main_Screen_Width - 10;//[MCToolsManage heightforString:timeStr andHeight:h fontSize:14];
+    UILabel * timelbl =[[UILabel alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    timelbl.textColor = [UIColor grayColor];
+    timelbl.font = [UIFont systemFontOfSize:14];
+    timelbl.text = timeStr;
+    timelbl.textAlignment = NSTextAlignmentRight;
+    [self.contentView addSubview:timelbl];
+    
+    UIView * lineView =[[UIView alloc]initWithFrame:CGRectMake(0, 39, Main_Screen_Width, 1)];
+    lineView.backgroundColor =[UIColor groupTableViewBackgroundColor];
+    [self.contentView addSubview:lineView];
+    x = 10;
+    y = 40 + 15;
+    w = 35;
+    h = w;
+    UIButton * headerBtn = [[UIButton alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    [headerBtn setBackgroundImage:[UIImage imageNamed:@"icon_head_small"] forState:0];
+    [self.contentView addSubview:headerBtn];
+    
+    x +=w + 8;
+    
+    w =[MCToolsManage heightforString:@"michan" andHeight:h fontSize:14];
+    UILabel * namelbl =[[UILabel alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    namelbl.text = @"michan";
+    namelbl.textColor =[UIColor darkTextColor];
+    namelbl.font =[UIFont systemFontOfSize:14 ];
+    [self.contentView addSubview:namelbl];
+    
+    x +=w + 8;
+    y+= 7.5;
+    h = 20;//h-2*5;
+    w = [MCToolsManage heightforString:@"4900单" andHeight:h fontSize:12] + 20;
+    UILabel * numLbl =[[UILabel alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    numLbl.textColor = [UIColor orangeColor];
+    numLbl.text = @"4900单";
+    numLbl.font =[UIFont systemFontOfSize:12];
+    numLbl.textAlignment = NSTextAlignmentCenter;
+    ViewBorderRadius(numLbl, h/2, 1, [UIColor orangeColor]);
+    numLbl.backgroundColor =[UIColor whiteColor];
+    [self.contentView addSubview:numLbl];
+    
+    
+    
+    y = headerBtn.mj_y + headerBtn.mj_h +15;
+    h = 20;
+    w = [MCToolsManage heightforString:@"租车时长:0天3小时15分" andHeight:20 fontSize:14];
+    x =18;
+    
+    UIView * hongView =[[UIView alloc]initWithFrame:CGRectMake(10, y+(20-4)/2, 4, 4)];
+    hongView.backgroundColor =AppCOLOR;
+    ViewRadius(hongView, 4/2);
+    [self.contentView addSubview:hongView];
+    
+    
+    
+    UILabel * lbl =[[UILabel alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    lbl.textColor =[UIColor darkTextColor];
+    lbl.font =[UIFont systemFontOfSize:14];
+    lbl.text =@"租车时长:0天3小时15分";
+    [self.contentView addSubview:lbl];
+    
+    x+= w + 10 + 5;
+    hongView =[[UIView alloc]initWithFrame:CGRectMake(x-8, y+(20-4)/2, 4, 4)];
+    hongView.backgroundColor =AppCOLOR;
+    ViewRadius(hongView, 4/2);
+    [self.contentView addSubview:hongView];
+    w = [MCToolsManage heightforString:@"支付费用:￥100.00" andHeight:20 fontSize:14];
+    lbl =[[UILabel alloc]initWithFrame:CGRectMake(x, y, w, h)];
+    lbl.textColor =[UIColor darkTextColor];
+    lbl.font =[UIFont systemFontOfSize:14];
+    lbl.text =@"支付费用:￥100.00";
+    [self.contentView addSubview:lbl];
+    
+//125
+
+  
+    
+}
+
 -(void)prepareUI{
     for (UIView * view in self.contentView.subviews) {
         [view removeFromSuperview];

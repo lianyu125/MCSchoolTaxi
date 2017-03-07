@@ -9,7 +9,9 @@
 #import "MeViewController.h"
 #import "MeViewTableViewCell.h"
 #import "PersonalDataViewController.h"
-
+#import "MyWalletViewController.h"
+#import "MyDiscountViewController.h"
+#import "MyScheduleViewController.h"
 @interface MeViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
     
@@ -209,6 +211,26 @@
     
 
     return [[UITableViewCell alloc]init];
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.section == 0) {
+        if (indexPath.row == 0) {
+            MyWalletViewController * ctl =[[MyWalletViewController alloc]init];
+            [self pushNewViewController:ctl];
+        }
+        if (indexPath.row == 1) {
+            MyDiscountViewController * ctl =[[MyDiscountViewController alloc]init];
+            [self pushNewViewController:ctl];
+        }
+        if (indexPath.row == 3) {
+            MyScheduleViewController * ctl =[[MyScheduleViewController alloc]init];
+            [self pushNewViewController:ctl];
+        }
+        
+    }
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

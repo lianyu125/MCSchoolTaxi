@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C2B13DD1E6CF374008E0EB7 /* MyWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B13DC1E6CF374008E0EB7 /* MyWalletViewController.m */; };
+		4C2B13E21E6D06D9008E0EB7 /* AddpledgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B13E11E6D06D9008E0EB7 /* AddpledgeViewController.m */; };
+		4C2B13E51E6D0938008E0EB7 /* AddpledgeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B13E41E6D0938008E0EB7 /* AddpledgeTableViewCell.m */; };
+		4C2B13E81E6D11F4008E0EB7 /* AuthenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B13E71E6D11F4008E0EB7 /* AuthenViewController.m */; };
+		4C2B13EB1E6D155D008E0EB7 /* DepositPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B13EA1E6D155D008E0EB7 /* DepositPayViewController.m */; };
+		4C2B13EE1E6D2CE3008E0EB7 /* RechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B13ED1E6D2CE3008E0EB7 /* RechargeViewController.m */; };
+		4C2B13F11E6D3AF3008E0EB7 /* withdraw1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B13F01E6D3AF3008E0EB7 /* withdraw1ViewController.m */; };
+		4C2B13F41E6D4744008E0EB7 /* withdraw2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B13F31E6D4744008E0EB7 /* withdraw2ViewController.m */; };
+		4C2B13F71E6D5042008E0EB7 /* ParticularsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B13F61E6D5042008E0EB7 /* ParticularsViewController.m */; };
+		4C2B13FA1E6D50CE008E0EB7 /* ParticularsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B13F91E6D50CE008E0EB7 /* ParticularsTableViewCell.m */; };
+		4C2B13FF1E6D557F008E0EB7 /* MyScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B13FE1E6D557F008E0EB7 /* MyScheduleViewController.m */; };
 		4C4DF3F71E6715C5004DBAEF /* PromptlyOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DF3F61E6715C5004DBAEF /* PromptlyOrderViewController.m */; };
 		4C51D2591E613EFB0079F2BD /* OrderViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C51D2581E613EFB0079F2BD /* OrderViewTableViewCell.m */; };
 		4C51D25D1E61561B0079F2BD /* MeViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C51D25C1E61561B0079F2BD /* MeViewTableViewCell.m */; };
@@ -381,6 +392,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C2B13DB1E6CF374008E0EB7 /* MyWalletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWalletViewController.h; sourceTree = "<group>"; };
+		4C2B13DC1E6CF374008E0EB7 /* MyWalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWalletViewController.m; sourceTree = "<group>"; };
+		4C2B13E01E6D06D9008E0EB7 /* AddpledgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddpledgeViewController.h; sourceTree = "<group>"; };
+		4C2B13E11E6D06D9008E0EB7 /* AddpledgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddpledgeViewController.m; sourceTree = "<group>"; };
+		4C2B13E31E6D0938008E0EB7 /* AddpledgeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddpledgeTableViewCell.h; sourceTree = "<group>"; };
+		4C2B13E41E6D0938008E0EB7 /* AddpledgeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddpledgeTableViewCell.m; sourceTree = "<group>"; };
+		4C2B13E61E6D11F4008E0EB7 /* AuthenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenViewController.h; sourceTree = "<group>"; };
+		4C2B13E71E6D11F4008E0EB7 /* AuthenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenViewController.m; sourceTree = "<group>"; };
+		4C2B13E91E6D155D008E0EB7 /* DepositPayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepositPayViewController.h; sourceTree = "<group>"; };
+		4C2B13EA1E6D155D008E0EB7 /* DepositPayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepositPayViewController.m; sourceTree = "<group>"; };
+		4C2B13EC1E6D2CE3008E0EB7 /* RechargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RechargeViewController.h; sourceTree = "<group>"; };
+		4C2B13ED1E6D2CE3008E0EB7 /* RechargeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RechargeViewController.m; sourceTree = "<group>"; };
+		4C2B13EF1E6D3AF3008E0EB7 /* withdraw1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = withdraw1ViewController.h; sourceTree = "<group>"; };
+		4C2B13F01E6D3AF3008E0EB7 /* withdraw1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = withdraw1ViewController.m; sourceTree = "<group>"; };
+		4C2B13F21E6D4744008E0EB7 /* withdraw2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = withdraw2ViewController.h; sourceTree = "<group>"; };
+		4C2B13F31E6D4744008E0EB7 /* withdraw2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = withdraw2ViewController.m; sourceTree = "<group>"; };
+		4C2B13F51E6D5042008E0EB7 /* ParticularsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticularsViewController.h; sourceTree = "<group>"; };
+		4C2B13F61E6D5042008E0EB7 /* ParticularsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticularsViewController.m; sourceTree = "<group>"; };
+		4C2B13F81E6D50CE008E0EB7 /* ParticularsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticularsTableViewCell.h; sourceTree = "<group>"; };
+		4C2B13F91E6D50CE008E0EB7 /* ParticularsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticularsTableViewCell.m; sourceTree = "<group>"; };
+		4C2B13FD1E6D557F008E0EB7 /* MyScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScheduleViewController.h; sourceTree = "<group>"; };
+		4C2B13FE1E6D557F008E0EB7 /* MyScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScheduleViewController.m; sourceTree = "<group>"; };
 		4C4DF3F51E6715C5004DBAEF /* PromptlyOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromptlyOrderViewController.h; sourceTree = "<group>"; };
 		4C4DF3F61E6715C5004DBAEF /* PromptlyOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromptlyOrderViewController.m; sourceTree = "<group>"; };
 		4C51D2571E613EFB0079F2BD /* OrderViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewTableViewCell.h; sourceTree = "<group>"; };
@@ -939,6 +972,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C2B13DA1E6CF35E008E0EB7 /* 我的钱包 */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B13DE1E6D068C008E0EB7 /* 交押金 */,
+				4C2B13DB1E6CF374008E0EB7 /* MyWalletViewController.h */,
+				4C2B13DC1E6CF374008E0EB7 /* MyWalletViewController.m */,
+				4C2B13EC1E6D2CE3008E0EB7 /* RechargeViewController.h */,
+				4C2B13ED1E6D2CE3008E0EB7 /* RechargeViewController.m */,
+				4C2B13EF1E6D3AF3008E0EB7 /* withdraw1ViewController.h */,
+				4C2B13F01E6D3AF3008E0EB7 /* withdraw1ViewController.m */,
+				4C2B13F21E6D4744008E0EB7 /* withdraw2ViewController.h */,
+				4C2B13F31E6D4744008E0EB7 /* withdraw2ViewController.m */,
+				4C2B13F51E6D5042008E0EB7 /* ParticularsViewController.h */,
+				4C2B13F61E6D5042008E0EB7 /* ParticularsViewController.m */,
+				4C2B13F81E6D50CE008E0EB7 /* ParticularsTableViewCell.h */,
+				4C2B13F91E6D50CE008E0EB7 /* ParticularsTableViewCell.m */,
+			);
+			path = "我的钱包";
+			sourceTree = "<group>";
+		};
+		4C2B13DE1E6D068C008E0EB7 /* 交押金 */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B13DF1E6D068C008E0EB7 /* view */,
+				4C2B13E01E6D06D9008E0EB7 /* AddpledgeViewController.h */,
+				4C2B13E11E6D06D9008E0EB7 /* AddpledgeViewController.m */,
+				4C2B13E61E6D11F4008E0EB7 /* AuthenViewController.h */,
+				4C2B13E71E6D11F4008E0EB7 /* AuthenViewController.m */,
+				4C2B13E91E6D155D008E0EB7 /* DepositPayViewController.h */,
+				4C2B13EA1E6D155D008E0EB7 /* DepositPayViewController.m */,
+			);
+			path = "交押金";
+			sourceTree = "<group>";
+		};
+		4C2B13DF1E6D068C008E0EB7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B13E31E6D0938008E0EB7 /* AddpledgeTableViewCell.h */,
+				4C2B13E41E6D0938008E0EB7 /* AddpledgeTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4C2B13FB1E6D547C008E0EB7 /* 我的行程 */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B13FC1E6D547C008E0EB7 /* view */,
+				4C2B13FD1E6D557F008E0EB7 /* MyScheduleViewController.h */,
+				4C2B13FE1E6D557F008E0EB7 /* MyScheduleViewController.m */,
+			);
+			path = "我的行程";
+			sourceTree = "<group>";
+		};
+		4C2B13FC1E6D547C008E0EB7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		4C4DF3F41E671578004DBAEF /* 立即租车 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1817,6 +1910,8 @@
 		4CC890E51E5E87BF00CA64DA /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				4C2B13FB1E6D547C008E0EB7 /* 我的行程 */,
+				4C2B13DA1E6CF35E008E0EB7 /* 我的钱包 */,
 				4CD7260D1E669C9700611814 /* 我的代金劵 */,
 				4C51D25A1E6156140079F2BD /* view */,
 				4CC890EE1E5E8B1C00CA64DA /* MeViewController.h */,
@@ -2419,8 +2514,11 @@
 				4CC890AA1E5E876E00CA64DA /* MJExtensionConst.m in Sources */,
 				4CC890A91E5E876E00CA64DA /* MJDictionaryCache.m in Sources */,
 				4C5316AF1E60297C00C757A2 /* SucceedOrderViewController.m in Sources */,
+				4C2B13FF1E6D557F008E0EB7 /* MyScheduleViewController.m in Sources */,
+				4C2B13E21E6D06D9008E0EB7 /* AddpledgeViewController.m in Sources */,
 				4C51D2591E613EFB0079F2BD /* OrderViewTableViewCell.m in Sources */,
 				4CC890B71E5E876E00CA64DA /* MJRefreshFooter.m in Sources */,
+				4C2B13F11E6D3AF3008E0EB7 /* withdraw1ViewController.m in Sources */,
 				4CC890981E5E876E00CA64DA /* UIImageView+AFNetworking.m in Sources */,
 				4CC890FC1E5E8BCA00CA64DA /* MCToolsManage.m in Sources */,
 				4CF05FBA1E657FAF004C2401 /* WaitPaymentViewController.m in Sources */,
@@ -2448,6 +2546,7 @@
 				4CC890C71E5E876E00CA64DA /* UIView+MJExtension.m in Sources */,
 				4C5316761E600CB300C757A2 /* HClSheetView.m in Sources */,
 				4CC890C21E5E876E00CA64DA /* MJChiBaoZiHeader.m in Sources */,
+				4C2B13EE1E6D2CE3008E0EB7 /* RechargeViewController.m in Sources */,
 				4C5667801E6BD75E00C29AFB /* RealNameTableViewCell.m in Sources */,
 				4CC890BE1E5E876E00CA64DA /* MJRefreshBackStateFooter.m in Sources */,
 				4C5316A21E6028D300C757A2 /* ZJScrollSegmentView.m in Sources */,
@@ -2460,11 +2559,15 @@
 				4CC890A31E5E876E00CA64DA /* IQTextView.m in Sources */,
 				4CC890D01E5E876E00CA64DA /* SDWebImagePrefetcher.m in Sources */,
 				4CC890BA1E5E876E00CA64DA /* MJRefreshAutoNormalFooter.m in Sources */,
+				4C2B13E81E6D11F4008E0EB7 /* AuthenViewController.m in Sources */,
 				4CC890D51E5E876E00CA64DA /* UIImageView+WebCache.m in Sources */,
 				4CC890D11E5E876E00CA64DA /* UIButton+WebCache.m in Sources */,
+				4C2B13FA1E6D50CE008E0EB7 /* ParticularsTableViewCell.m in Sources */,
 				4CC890CB1E5E876E00CA64DA /* SDWebImageCompat.m in Sources */,
+				4C2B13F41E6D4744008E0EB7 /* withdraw2ViewController.m in Sources */,
 				4C5316801E6011A800C757A2 /* AlertViewExtension.m in Sources */,
 				4C5314F41E5FC68500C757A2 /* NSTimer+Addition.m in Sources */,
+				4C2B13F71E6D5042008E0EB7 /* ParticularsViewController.m in Sources */,
 				4C5316A41E6028D300C757A2 /* ZJTitleView.m in Sources */,
 				4CD726111E669CBB00611814 /* MyDiscountViewController.m in Sources */,
 				4CC890A01E5E876E00CA64DA /* IQKeyboardManager.m in Sources */,
@@ -2472,6 +2575,7 @@
 				4CC890B61E5E876E00CA64DA /* MJRefreshComponent.m in Sources */,
 				4CF05F941E650F11004C2401 /* WaitingOrderViewController.m in Sources */,
 				4CC890AD1E5E876E00CA64DA /* MJPropertyKey.m in Sources */,
+				4C2B13EB1E6D155D008E0EB7 /* DepositPayViewController.m in Sources */,
 				4CC8909A1E5E876E00CA64DA /* UIRefreshControl+AFNetworking.m in Sources */,
 				4C53165F1E5FE4BA00C757A2 /* OwnerAuthenViewController.m in Sources */,
 				4CC890B91E5E876E00CA64DA /* MJRefreshAutoGifFooter.m in Sources */,
@@ -2492,6 +2596,7 @@
 				4CC8909E1E5E876E00CA64DA /* IQUIView+Hierarchy.m in Sources */,
 				4CC8908F1E5E876E00CA64DA /* AFSecurityPolicy.m in Sources */,
 				4CC890901E5E876E00CA64DA /* AFURLRequestSerialization.m in Sources */,
+				4C2B13E51E6D0938008E0EB7 /* AddpledgeTableViewCell.m in Sources */,
 				4CC890D71E5E876E00CA64DA /* BaseViewController.m in Sources */,
 				4CD726141E669D8200611814 /* MyDiscountTableViewCell.m in Sources */,
 				4CC890951E5E876E00CA64DA /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -2511,6 +2616,7 @@
 				4CC890941E5E876E00CA64DA /* AFImageDownloader.m in Sources */,
 				4CC890ED1E5E8B1100CA64DA /* MyOwnerViewController.m in Sources */,
 				4CC890961E5E876E00CA64DA /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				4C2B13DD1E6CF374008E0EB7 /* MyWalletViewController.m in Sources */,
 				4CC890D21E5E876E00CA64DA /* UIImage+GIF.m in Sources */,
 				4CC890DB1E5E876E00CA64DA /* MCplaceholderText.m in Sources */,
 				4CC890F01E5E8B1C00CA64DA /* MeViewController.m in Sources */,

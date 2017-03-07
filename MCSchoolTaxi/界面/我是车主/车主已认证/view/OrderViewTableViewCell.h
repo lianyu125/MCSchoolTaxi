@@ -13,4 +13,11 @@
 @property(nonatomic,assign)NSInteger  OrderIndex;//0 预约  1 即时  2已抢
 -(void)prepareUI;
 @property(nonatomic,strong)UIButton * btn;
+
+
+
+-(void)prepareUI2;
+
+
+
 @end

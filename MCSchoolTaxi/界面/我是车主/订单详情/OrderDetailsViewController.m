@@ -76,7 +76,7 @@
     if (_stateIndex == 1||_stateIndex == 2) {
         return 3;
     }
-    else if (_stateIndex == 3||_stateIndex == 4){
+    else if (_stateIndex == 3||_stateIndex == 4||_stateIndex == 5||_stateIndex == 6){
         return 4;
     }
     
@@ -133,7 +133,7 @@
         }
         cell.stateIndex =_stateIndex;
         cell.typeIndex = _typeIndex;
-        
+        cell.pushIndex = _pushIndex;
         [cell prepareUI1];
         return cell;
 
@@ -193,6 +193,19 @@
 
                 
             }
+            else if (_stateIndex == 5){
+                cell.titleSubLbl.text = @"已完成";
+                return cell;
+                
+                
+            }
+            else if (_stateIndex == 6){
+                cell.titleSubLbl.text = @"已取消";
+                return cell;
+                
+                
+            }
+
 
 
         }
@@ -233,7 +246,20 @@
         cell.titleLbl2.text = @"应收费用";
         cell.titleSubLbl.text = @"0天12小时49分";
         cell.titleSubLbl2.text = @"￥10.00";
-        
+        if (_stateIndex == 5) {
+            cell.titleLbl2.text = @"收到费用";
+            return cell;
+
+        }
+        else if (_stateIndex == 6){
+            cell.titleLbl.text = @"取消订单时间";
+            cell.titleSubLbl.text = @"2016-09-09 12:21:21";
+            cell.titleLbl2.text = @"取消人";
+            cell.titleSubLbl2.text = @"michan";
+
+            return cell;
+
+        }
         
         return cell;
         
